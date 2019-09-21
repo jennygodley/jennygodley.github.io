@@ -1,0 +1,21 @@
+$theme-colors: (
+  'warning': #f59342,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Muli|Paytone+One&display=swap');
+
+h1 {
+  color: #fff;
+  font-family: 'Paytone One', sans-serif;
+}
+
+p {
+  color: $yellow;
+  font-family: 'Muli', sans-serif;
+}
+
+.jumbotron {
+  background-image: url("../public/bunting.png");
+  background-size: cover;
+}
