@@ -6,46 +6,80 @@
 
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link href="assets/styles/main.css" rel="stylesheet">
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <link rel="icon" href="favicon.ico" type="image/x-icon">
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="assets/scripts/index.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body>
 
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">contact</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            jennifer godley
+          </span>
+        </div>
+      </nav>
+
       <div class="jumbotron jumbotron-fluid bg-warning">
         <div class="container">
           <h1 class="display-4">Jennifer Godley</h1>
-          <p class="lead">Hello! I'm a software engineer.</p>
+          <p class="lead">Hello! I'm a software engineer located in Boston.</p>
         </div>
       </div>
 
-      <div class="container">
+      <div class="container" id="projects">
+        <div class="narrow"><p>I've always enjoyed solving problems. After years working with customers, in differing capacities, I realized that software engineering would be a great fit for me.<br>
+        I look forward to bringing my customer-focus, as well as my art school background to a new role in software engineering.</p></div>
+      </div>
+
+      <div class="container" id="projects">
         <div class="row row-eq-height">
           <div class="col-lg">
-        <div class="card text-center">
+        <div class="card h-100 text-center">
           <div class="card-body">
-            <img src="assets/images/tic_tac_toe.png" alt="screenshot of tic tac toe game" class="img-fluid">
+            <img src="assets/images/tic_tac_toe.png" alt="screenshot of tic tac toe game" class="img-fluid tic-tac-toe-picture">
             <h5 class="card-title">tic tac toe</h5>
             <p class="card-text">A tic tac toe game. Play against a friend or a very forgiving computer opponent.</p>
+            <p><small>Made using Javascript, jQuery, Ajax, and Bootstrap.</small></p>
           </div>
           <div class="card-footer text-muted">
-            <a href="https://github.com/jennygodley/tictactoe-client">github</a> •
-            <a href="https://jennygodley.github.io/tictactoe-client/">live site</a>
+            <a href="https://github.com/jennygodley/tictactoe-client" target="_blank">github</a> •
+            <a href="https://jennygodley.github.io/tictactoe-client/" target="_blank">live site</a>
           </div>
         </div>
       </div>
       <br>
 
       <div class="col-lg">
-        <div class="card text-center">
+        <div class="card h-100 text-center">
           <div class="card-body">
-            <img src="assets/images/bad_kitty_word_match.png" alt="screenshot of word game" class="img-fluid">
+            <img src="assets/images/bad_kitty_word_match2.png" alt="screenshot of word game" class="img-fluid  kitty-picture">
             <h5 class="card-title">bad kitty word match</h5>
             <p class="card-text">A less-morbid hangman game. Create your own word list hosted by my API, or use a random word from a public API.</p>
+            <p><small>Made using Javascript, jQuery, Ajax, Handlebars, Bootstrap, and Ruby on Rails.</small></p>
           </div>
           <div class="card-footer text-muted">
-            <a href="https://github.com/jennygodley/word-game-frontend">github front end</a> •
-            <a href="https://github.com/jennygodley/word-game-backend">github back end</a> •
-            <a href="https://jennygodley.github.io/word-game-frontend/">live site</a>
+            <a href="https://github.com/jennygodley/word-game-frontend" target="_blank">github front end</a> •
+            <a href="https://github.com/jennygodley/word-game-backend" target="_blank">github back end</a> •
+            <a href="https://jennygodley.github.io/word-game-frontend/" target="_blank">live site</a>
           </div>
         </div>
       </div>
