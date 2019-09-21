@@ -27,7 +27,7 @@ a {
 }
 
 .jumbotron {
-  background-image: url("../../public/bunting.png");
+  background-image: url("../images/bunting.png");
   background-size: cover;
 }
 
