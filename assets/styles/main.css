@@ -49,6 +49,52 @@ img:hover {
   border: 1px solid #f59342;
 }
 
+/* #tic-tac-toe-picture {
+  position:relative;
+  margin:0 auto;
+}
+
+#tic-tac-toe-picture img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#tic-tac-toe-picture img.top:hover {
+  opacity:0;
+}
+
+#kitty-picture {
+  position:relative;
+  height: 200px;
+  margin:0 auto;
+}
+
+#kitty-picture img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#kitty-picture img.top:hover {
+  opacity:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+} */
+
+.lead {
+  text-shadow:
+     2px 2px 4px #fff;
+}
+
 .jenny-picture {
   height: 200px;
   border-radius: 40%;
@@ -85,9 +131,15 @@ img:hover {
   -webkit-text-stroke: 2px #3d8499;
 }
 
+.devicon {
+  -webkit-transition: all .5s;
+}
+
 .devicon:hover {
   color: #f59342;
-  -webkit-text-stroke: 1px #bf7334;
+  text-shadow:
+     2px 2px 4px #945826;
+  -webkit-transition: all .5s;
 }
 
 .col-sm {
@@ -118,7 +170,7 @@ img:hover {
 }
 
 .navbar.nottrans {
-  background-color: rgba(255, 193, 7);
+  background-color: rgba(245, 147, 66, .95);
   -webkit-transition: all .75s;
   /* box-sizing: border-box; */
 }
