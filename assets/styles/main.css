@@ -26,12 +26,49 @@ a {
   font-family: 'Muli', sans-serif;
 }
 
-.jumbotron {
-  background-image: url("../images/bunting.png");
-  background-size: cover;
+a:hover {
+  color: #00c45f;
 }
+
+i {
+  color: #fff;
+  font-size: 84px;
+}
+
+.devicon:hover {
+  color: #f59342;
+}
+
+.col-sm {
+  padding: 15px;
+}
+
+.white {
+  color: #fff;
+}
+
+.inline {
+  text-align: center;
+}
+
+.not-white {
+  color: #f59342;
+  padding: 5px;
+}
+
+.card-footer {
+  background-color: #fff;
+}
+
+.bunting {
+  background-image: url("../images/bunting2.png");
+  background-size: cover;
+  padding: 11%;
+}
+
 .navbar {
   background-color: rgba(255, 193, 7, 0.7);
+    /* background-color: rgba(255, 193, 7); */
 }
 
 .narrow {
@@ -48,4 +85,8 @@ a {
 
 .card-body {
   /* margin: 20px; */
+}
+
+.container {
+  text-align: center;
 }
