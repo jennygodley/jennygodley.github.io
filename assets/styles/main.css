@@ -44,6 +44,18 @@ img:hover {
   border: 1px solid #f59342;
 }
 
+.jenny-picture {
+  height: 200px;
+  border-radius: 40%;
+  border: 5px solid #f59342;
+}
+
+.jenny-picture:hover {
+  height: 200px;
+  border-radius: 40%;
+  border: 5px solid #f59342;
+}
+
 .tooltip-inner {
     max-width: 200px;
     padding: 3px 8px;
@@ -100,9 +112,16 @@ img:hover {
   padding: 11%;
 }
 
+.navbar.nottrans {
+  background-color: rgba(255, 193, 7);
+  -webkit-transition: all .75s;
+}
+
 .navbar {
   /* background-color: rgba(255, 193, 7, 0.7); */
-  background-color: rgba(91, 192, 222, 0.7);
+  /* background-color: rgba(91, 192, 222); */
+  background: transparent;
+  -webkit-transition: all .75s;
     /* background-color: rgba(255, 193, 7); */
 }
 
