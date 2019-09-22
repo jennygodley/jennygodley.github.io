@@ -41,12 +41,12 @@ i {
 
 img {
   /* padding: 1px; */
-  border: 1px solid #34e389;
+  border: 2px solid #34e389;
 }
 
 img:hover {
   /* padding: 1px; */
-  border: 1px solid #f59342;
+  border: 2px solid #f59342;
 }
 
 /* #tic-tac-toe-picture {
@@ -89,6 +89,15 @@ img:hover {
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 } */
+
+.card-title {
+  color: #f59342;
+}
+
+.border-warning {
+    border-width:2px !important;
+    /* border-color: #5BC0DE !important; */
+}
 
 .lead {
   text-shadow:
