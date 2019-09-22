@@ -28,10 +28,12 @@ h5 {
 a {
   color: #34e389;
   font-family: 'Muli', sans-serif;
+  -webkit-transition: all .35s;
 }
 
 a:hover {
   color: #f59342;
+  -webkit-transition: all .35s;
 }
 
 i {
@@ -42,11 +44,13 @@ i {
 img {
   /* padding: 1px; */
   border: 2px solid #34e389;
+  -webkit-transition: all .35s;
 }
 
 img:hover {
   /* padding: 1px; */
   border: 2px solid #f59342;
+  -webkit-transition: all .35s;
 }
 
 /* #tic-tac-toe-picture {
