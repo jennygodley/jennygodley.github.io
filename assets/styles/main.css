@@ -44,12 +44,33 @@ img:hover {
   border: 1px solid #f59342;
 }
 
+.tooltip-inner {
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #f59342;
+    text-align: center;
+    background-color: #fff;
+    border-radius: .25rem;
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .tooltip.bs-tooltip-bottom .arrow::before {
+    margin-left: -3px;
+    content: "";
+    border-width: 0 5px 5px;
+    border-bottom-color: #fff;
+}
+
+.lead {
+  color: #3d8499;
+}
+
 .display-4 {
   -webkit-text-stroke: 2px #3d8499;
 }
 
 .devicon:hover {
   color: #f59342;
+  -webkit-text-stroke: 1px #bf7334;
 }
 
 .col-sm {
