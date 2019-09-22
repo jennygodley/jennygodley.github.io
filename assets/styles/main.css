@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Muli|Paytone+One&display=swap');
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+body {
+  overflow-x:hidden;
+}
+
 html {
 	scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -115,13 +120,16 @@ img:hover {
 .navbar.nottrans {
   background-color: rgba(255, 193, 7);
   -webkit-transition: all .75s;
+  /* box-sizing: border-box; */
 }
 
 .navbar {
   /* background-color: rgba(255, 193, 7, 0.7); */
+  background-color: #f59342;
   /* background-color: rgba(91, 192, 222); */
   background: transparent;
   -webkit-transition: all .75s;
+  /* box-sizing: border-box; */
     /* background-color: rgba(255, 193, 7); */
 }
 
@@ -141,6 +149,11 @@ img:hover {
   /* margin: 20px; */
 }
 
+.jumbotron {
+  width: 100%;
+}
+
 .container {
   text-align: center;
+  /* box-sizing: border-box; */
 }
