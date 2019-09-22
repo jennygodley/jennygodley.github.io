@@ -94,6 +94,14 @@ img:hover {
   transition: opacity 1s ease-in-out;
 } */
 
+/* .kitty-image {
+  max-height: 80vh;
+} */
+
+.modal-content {
+  text-align: center;
+}
+
 .card-title {
   color: #f59342;
 }
