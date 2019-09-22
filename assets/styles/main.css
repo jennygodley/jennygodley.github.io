@@ -11,14 +11,13 @@ h1 {
 }
 
 p {
-  color: #f59342;
+  color: #5BC0DE;
   font-family: 'Muli', sans-serif;
 }
 
 h5 {
-  color: #f59342;
-  font-family: 'Muli', sans-serif;
-  font-weight: bold;
+  color: #5BC0DE;
+  font-family: 'Paytone One', sans-serif;
 }
 
 a {
@@ -27,12 +26,26 @@ a {
 }
 
 a:hover {
-  color: #00c45f;
+  color: #f59342;
 }
 
 i {
   color: #fff;
   font-size: 84px;
+}
+
+img {
+  /* padding: 1px; */
+  border: 1px solid #34e389;
+}
+
+img:hover {
+  /* padding: 1px; */
+  border: 1px solid #f59342;
+}
+
+.display-4 {
+  -webkit-text-stroke: 2px #3d8499;
 }
 
 .devicon:hover {
@@ -61,13 +74,14 @@ i {
 }
 
 .bunting {
-  background-image: url("../images/bunting2.png");
+  background-image: url("../images/bunting3.png");
   background-size: cover;
   padding: 11%;
 }
 
 .navbar {
-  background-color: rgba(255, 193, 7, 0.7);
+  /* background-color: rgba(255, 193, 7, 0.7); */
+  background-color: rgba(91, 192, 222, 0.7);
     /* background-color: rgba(255, 193, 7); */
 }
 
