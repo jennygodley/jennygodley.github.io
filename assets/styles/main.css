@@ -98,6 +98,20 @@ img:hover {
   max-height: 80vh;
 } */
 
+/* .show {
+  color: rgba(91, 192, 222, .95) !important;
+} */
+
+/* .nottrans-expand { */
+  /* background-color: rgba(91, 192, 222, 1); */
+  /* text-shadow: */
+  /* text-shadow: */
+     /* 3px 3px 4px #2b5c6b,
+     4px 4px 8px #fff; */
+  /* -webkit-text-stroke: 1px #3d8499 !important; */
+
+/* } */
+
 .modal-content {
   text-align: center;
 }
@@ -193,13 +207,15 @@ img:hover {
 .navbar.nottrans {
   background-color: rgba(245, 147, 66, .95);
   -webkit-transition: all .75s;
+  box-shadow:
+     1px 1px 5px #945826;
   /* box-sizing: border-box; */
 }
 
 .navbar {
   /* background-color: rgba(255, 193, 7, 0.7); */
   background-color: #f59342;
-  /* background-color: rgba(91, 192, 222); */
+  /* background-color: rgba(91, 192, 222, 1); */
   background: transparent;
   -webkit-transition: all .75s;
   /* box-sizing: border-box; */
