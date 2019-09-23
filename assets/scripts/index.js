@@ -15,6 +15,11 @@ $(() => {
     const offset = $(window).scrollTop()
     $('.navbar').toggleClass('nottrans', offset > 300)
   })
+
+  // $(window).scroll(function () {
+  //   const offset = $(window).scrollTop()
+  //   $('.navbar-expand-lg').toggleClass('#navbarText', offset < 300)
+  // })
 })
 
 // const replaceKitty = function () {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli|Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli|Paytone+One|Zilla+Slab&display=swap');
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 body {
@@ -111,6 +111,14 @@ img:hover {
   /* -webkit-text-stroke: 1px #3d8499 !important; */
 
 /* } */
+
+.check {
+  color: #f59342;
+  font-size: 56px;
+  font-family: 'Zilla Slab', serif;
+  text-shadow:
+     2px 2px 4px #945826;
+}
 
 .modal-content {
   text-align: center;
