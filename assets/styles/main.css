@@ -135,7 +135,7 @@ img:hover {
 
 .lead {
   text-shadow:
-     2px 2px 4px #fff;
+     2px 2px 2px #5BC0DE;
 }
 
 .jenny-picture {
@@ -207,7 +207,7 @@ img:hover {
 }
 
 .bunting {
-  background-image: url("../images/bunting3.png");
+  background-image: url("../images/bunting4.png");
   background-size: cover;
   padding: 11%;
 }
