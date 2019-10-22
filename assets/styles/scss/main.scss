@@ -1,6 +1,9 @@
 $theme-colors: (
   'warning': #f59342,
+  'info': #fff4eb,
 );
+
+$info: #fff4eb;
 
 @import url('https://fonts.googleapis.com/css?family=Muli|Paytone+One&display=swap');
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -29,6 +32,11 @@ a {
 .jumbotron {
   background-image: url("../../images/bunting.png");
   background-size: cover;
+}
+
+.card {
+  // background-color: #fff4eb;
+  background-color: #000;
 }
 
 .card-body {
