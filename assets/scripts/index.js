@@ -7,6 +7,14 @@ $(() => {
     $('.tic-tac-toe-picture').attr('src', 'assets/images/tic_tac_toe2.png').mouseout(() =>
       $('.tic-tac-toe-picture').attr('src', 'assets/images/tic_tac_toe.png')))
 
+  $('.photonix-picture').mouseover(() =>
+    $('.photonix-picture').attr('src', 'assets/images/photonix2.png').mouseout(() =>
+      $('.photonix-picture').attr('src', 'assets/images/photonix1.png')))
+
+  $('.garden-party-picture').mouseover(() =>
+    $('.garden-party-picture').attr('src', 'assets/images/garden_party2.png').mouseout(() =>
+      $('.garden-party-picture').attr('src', 'assets/images/garden_party1.png')))
+
   $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })
