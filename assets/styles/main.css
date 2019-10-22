@@ -15,11 +15,6 @@ h1 {
   font-family: 'Paytone One', sans-serif;
 }
 
-span {
-  color: #5BC0DE;
-  font-family: 'Muli', sans-serif;
-}
-
 p {
   color: #5BC0DE;
   font-family: 'Muli', sans-serif;
@@ -249,10 +244,6 @@ img:hover {
 
 .card-body {
   /* margin: 20px; */
-}
-
-.card {
-  margin-bottom: 20px;
 }
 
 .jumbotron {
