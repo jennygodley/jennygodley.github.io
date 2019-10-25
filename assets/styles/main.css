@@ -16,7 +16,12 @@ h1 {
 }
 
 p {
-  color: #5BC0DE;
+  color: #4698b0;
+  font-family: 'Muli', sans-serif;
+}
+
+span {
+  color: #4698b0;
   font-family: 'Muli', sans-serif;
 }
 
@@ -134,6 +139,7 @@ img:hover {
 }
 
 .lead {
+  color:
   text-shadow:
      2px 2px 2px #5BC0DE;
 }
@@ -167,7 +173,7 @@ img:hover {
 }
 
 .lead {
-  color: #3d8499;
+  color: #2a5e6e;
 }
 
 .display-4 {
